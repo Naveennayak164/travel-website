@@ -1,0 +1,59 @@
+/* style.css */
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 0 1rem;
+}
+
+main {
+  padding: 2rem;
+}
+
+#hero {
+  text-align: center;
+  padding: 2rem 0;
+  background-color: #e9ecef;
+}
+
+#featured-destinations {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.destination {
+  width: 300px;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  border: 1px solid #ddd;
+  background-color: white;
+  text-align: center;
+}
+
+.destination img {
+  width: 100%;
+  height: auto;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #333;
+  color: white;
+}
